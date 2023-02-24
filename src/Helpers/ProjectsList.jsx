@@ -1,6 +1,6 @@
 import portfolio from '../assets/webDev.jpg'
-import todo from '../assets/Ecommerce.jpg'
-
+import ClothCart from '../assets/Ecommerce.jpg'
+import demoLoginExtension from '../assets/Extension.png'
 export const projectList = [
     {
         name: "PORTFOLIO",
@@ -11,10 +11,19 @@ export const projectList = [
     },
     {
         name: "ClothCart ",
-        image: todo,
+        image: ClothCart,
         desc: 'It is an online Ecommerce Cloting Store for Buying High Quality and stylish Clothes',
         tech: 'ReactJs, Nodejs, Redux, Express, MongoDB,PostMan, JsonWebToken',
         linkofProject :'https://github.com/anandDh0dmani/ClothCart.git',
 
     },
+    {
+        name: "DemoLoginExtension",
+        image: demoLoginExtension,
+        desc: 'Demo Extension ',
+        tech: 'HTML, CSS, Chrome',
+        linkofProject :'https://github.com/anandDh0dmani/DemoLoginExtension.git',
+
+    },
+
 ]
